@@ -32,22 +32,21 @@
 </head>
 
 <body>
-<header class="header" style="background-color: #000;">
+<header class="header" style="background-color:whitesmoke; opacity: .75;">
   <div class="container">
     <nav class="navbar navbar-inverse" role="navigation">
       <div class="navbar-header">
         <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">TEst</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-        <a href="#" class="navbar-brand scroll-top logo  animated bounceInLeft"><b><i>Vera<span>&</span>Martin</i></b></a> </div>
+        <a href="#" class="navbar-brand scroll-top logo  animated bounceInLeft " style="color: black;"><b><i>Vera<span>&</span>Martin</i></b></a> </div>
       <!--/.navbar-header-->
       <div id="main-nav" class="collapse navbar-collapse">
         <ul class="nav navbar-nav" id="mainNav">
-          <li class="active" id="firstLink"><a href="#home" class="scroll-link">Home</a></li>
-          <li><a href="#services" class="scroll-link" >Instrumente</a></li>
-          <li><a href="#aboutUs" class="scroll-link">Über Us</a></li>
-          <li><a href="#work" class="scroll-link">Hörproben</a></li>
-          <li><a href="#plans" class="scroll-link">Varianten</a></li>
-          <li><a href="#team" class="scroll-link">Wir</a></li>
-          <li><a href="#contactUs" class="scroll-link">Kontakt</a></li>
+          <li class="active" id="firstLink"><a href="#home" class="scroll-link" style="color: black;">Home</a></li>
+          <li><a href="#aboutUs" class="scroll-link"style="color: black;">Über Us</a></li>
+          <li><a href="#work" class="scroll-link"style="color: black;">Hörproben</a></li>
+          <li><a href="#plans" class="scroll-link"style="color: black;">Angebot</a></li>
+          <li><a href="#team" class="scroll-link"style="color: black;">Wir</a></li>
+          <li><a href="#contactUs" class="scroll-link"style="color: black;">Kontakt</a></li>
         </ul>
       </div>
       <!--/.navbar-collapse--> 
@@ -61,57 +60,24 @@
 <section id="home">
   <div class="banner-container"> <img src="images/banner-bg.jpg" alt="banner" />
     <div class="container banner-content">
-    </div>
   </div>
   <div class="container hero-text2">
-  <h3>Wir machen Musik! <audio src="audio/VeraundMartin.mp3" controls></audio></h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/0X4uns0TMdY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </section>
-<section id="services" class="page-section colord">
-  <div class="container">
-    <div class="row"> 
-      <!-- item -->
-      <div class="col-md-4 col-sm-6 text-center"> <i class="circle"><img src="images/eye.png" alt="" /></i>
-        <h3>Gitarre</h3>
-        <p>Wir spielen Gitarre.</p>
-      </div>
-      <!-- end: --> 
-      
-      <!-- item -->
-      <div class="col-md-4 col-sm-6 text-center"><i class="circle"> <img src="images/clock.png" alt="" /></i>
-        <h3>GUITAR</h3>
-        <p>Wir singen zweistimmig.</p>
-      </div>
-      <!-- end: --> 
-      
-      <!-- item -->
-      <div class="col-md-4 col-sm-6 text-center"><i class="circle"> <img src="images/clock.png" alt="" /></i>
-        <h3>VIOLIN</h3>
-        <p>Vera kann auch am Klavier begleiten.</p>
-      </div>
-      <!-- end: --> 
-      
-      <!-- item -->
-      <!-- <div class="col-md-3 text-center"><i class="circle"> <img src="images/heart.png" alt="" /></i>
-        <h3>CLARINET</h3>
-        <p>Nullam ac rhoncus sapien, non gravida purus. Alinon elit imperdiet congue. Integer elit imperdiet conempus.</p>
-      </div> -->
-      <!-- end:--> 
-    </div>
-  </div>
-  <!--/.container--> 
-</section>
+
 <section id="aboutUs">
   <div class="container">
     <div class="heading text-center"> 
       <!-- Heading -->
-      <h2>About Us</h2>
-      <p>Hier etwas Text über uns.</p>
+      <h2>Über uns</h2>
+      <p>Wir machen seit vielen Jahren gemeinsam Musik, früher in Gesangs/Gitarrenklassen in der Musikschule Wildon, mittlerweile gestalten wir Taufen und Hochzeiten.</p>
+      <p>Wir bieten dabei ein breit aufgestelltest Programm an mit moderner sowie kirchlicher Literatur, gerne machen wir aber auch eure Liederwünsche, wenn sich das mit Gitarre und 2 Stimmen umsetzen lässt.</p>
     </div>
     <div class="row feature design">
       <div class="area1 columns right">
-        <h3>Was wir alles machen.</h3>
-        <p>Ein Absatz zu Taufen </p>
+        <h3>Angebot</h3>
+        <p>Wir gestalten gern eure Taufe, mit typischerweise 4-6 Lieder, </p>
         <a href="pdf/Taufprogramm.pdf" class="btn">Taufprogramm</a>
         <p>Ein Absatz zu Hochzeiten </p>
           
@@ -125,19 +91,26 @@
   <div class="container text-center">
     <div class="heading">
       <h2>Hörproben</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, alias enim placeat earum quos ab.</p>
+      <div class="container hero-text1">
+        <p>Ein paar Live-Aufnahmen von vergangenen Hochzeiten und Taufen. </p>
+        </div>
+
     </div>
     <div class="row">
       <div class="col-md-12">
         <div id="portfolio">
           <ul class="filters list-inline">
-            <li> <a class="active" data-filter="*" href="#">All</a> </li>
-            <li> <a data-filter=".youtube" href="#">YouTube</a> </li>
-            <li> <a data-filter=".songs" href="#">MP3</a> </li>
+            <li> <a class="active" data-filter="*" href="#">Alle</a> </li>
+            <li> <a data-filter=".taufe" href="#">Taufe</a> </li>
+            <li> <a data-filter=".hochzeit" href="#">Hochzeit</a> </li>
           </ul>
-          <ul class="items list-unstyled clearfix animated fadeInRight showing" data-animation="fadeInRight" style="position: relative; height: 438px;">
-            <li class="item youtube" style="position: static; top: 0px;"> <iframe width="560" height="315" src="https://www.youtube.com/embed/0X4uns0TMdY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
-            <li class="item songs" style="position: static; left: 100px;top: 100px;"> <audio src="audio/VeraundMartin.mp3" controls></audio> </li>
+          <ul class="items list-unstyled clearfix animated fadeInRight showing" data-animation="fadeInRight" style="position: relative;  opacity: .0;">
+            <li class="item hochzeit" style="position: static; background-color: inherit; "> <audio src="audio/All of me.mp3" controls></audio> <br> All of me - John Legend </li>
+            <li class="item taufe" style="position: static; background-color: inherit;"> <audio src="audio/Hallelujah.mp3" controls></audio> <br> Hallelujah - Leonard Cohen </li>
+            <li class="item taufe" style="position: static; background-color: inherit;"> <audio src="audio/Engerl.mp3" controls></audio> <br> Engerl - Andreas Gabalier </li>
+            <li class="item taufe" style="position: static; background-color: inherit;"> <audio src="audio/Isn't he lovely.mp3" controls></audio> <br> Isn't she lovely - Stevie Wonder </li>
+            <li class="item hochzeit" style="position: static; background-color: inherit;"> <audio src="audio/All of me.mp3" controls></audio> <br> The Rose - Bette Midler </li>
+            <li class="item hochzeit" style="position: static; background-color: inherit;"> <audio src="audio/All of me.mp3" controls></audio> <br> Amazing Grace - Traditional </li>
           </ul>
         </div>
       </div>
@@ -148,8 +121,8 @@
   <div class="container">
     <div class="heading text-center"> 
       <!-- Heading -->
-      <h2>Kosten</h2>
-      <p>Wieviel alles kostet.</p>
+      <h2>Unser Angebot</h2>
+      <p>Wir musizieren für euch gerne bei Taufe oder Hochzeit (egal ob am Standesamt, in der Kirche oder beides kombiniert). Der genaue Preis ist typischerweise abhängig von der Anzahl der Lieder, wieviele neue Lieder wir für euch speziell einstudieren und die Anfahrt zum Veranstaltungsort. Alle genannten Preise sind Richtpreise, schreibt/ruft uns an wenn ihr was genaueres wissen möchtet.</p>
     </div>
     <div class="row flat">
       <div class="col-lg-3 col-md-4 col-xs-12">
@@ -192,7 +165,7 @@
     <div class="heading text-center"> 
       <!-- Heading -->
       <h2>Das sind wir</h2>
-      <p>Wir machen gemeinsam Musik seit 2015.</p>
+      <!-- <p>Wir machen gemeinsam Musik seit 2015.</p> -->
     </div>
     <!-- Team Member's Details -->
     <div class="team-content">
@@ -207,7 +180,7 @@
             <!-- Member Details -->
             <h4>Vera Türha</h4>
             <!-- Designation --> 
-            <span class="pos">Gesang / Klavier</span>
+            <span class="pos">Gesang / Klavier  <br> 10 Jahre Gesangsunterricht (Abschlussprüfung) <br>sowie 4 Jahre Klavierunterricht und <br>6 Jahre Gitarrenunterricht an der MS Wildon</span>
           </div>
         </div>
         <div class="col-md-3"> 
@@ -220,7 +193,7 @@
             <!-- Member Details -->
             <h4>Martin Winter</h4>
             <!-- Designation --> 
-            <span class="pos">Gesang / Gitarre</span>
+            <span class="pos">Gesang / Gitarre <br> 12 Jahre Gitarrenunterricht (Abschlussprüfung) und 6 Jahre Gesangsunterricht an der Musikschule Wildon</span>
           </div>
         </div>
 
@@ -236,59 +209,64 @@
         <div class="heading text-center"> 
           <!-- Heading -->
           <h2>Kontakt</h2>
-          <p>Text</p>
+          Wir sind gerne erreichbar via Telefon
+          <li>+43 6644461577</li> 
+          oder auch gern per Mail:
         </div>
       </div>
       <div class="row mrgn30">
-        <form method="post" action="" id="contactfrm" role="form">
-          <div class="col-sm-12">
+
+        <div id="contactfrm">
+    
+        <form id="fcf-form-id" class="form-group" method="post" action="contact-form-process.php" role="form">
+            
             <div class="form-group">
-              <label for="name">Name</label>
-              <input type="text" class="form-control" name="name" id="name" placeholder="Name" title="Please enter your name (at least 2 characters)">
+                <label for="Name" class="fcf-label">Name</label>
+                <div class="fcf-input-group">
+                    <input type="text" id="Name" name="Name" class="form-control" required>
+                </div>
             </div>
+    
             <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" class="form-control" name="email" id="email" placeholder="Email" title="Please enter a valid email address">
+                <label for="Email" class="fcf-label">Email-Addresse</label>
+                <div class="fcf-input-group">
+                    <input type="email" id="Email" name="Email" class="form-control" required>
+                </div>
             </div>
+    
             <div class="form-group">
-              <label for="comments">Comments</label>
-              <textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Nachricht an uns..." title="Please enter your message (at least 10 characters)"></textarea>
-              <button name="submit" type="submit" class="btn btn-lg btn-primary" id="submit">Abschicken</button>
+                <label for="Message" class="fcf-label">Deine Nachricht</label>
+                <div class="fcf-input-group">
+                    <textarea id="Message" name="Message" class="form-control" rows="6" maxlength="3000" required></textarea>
+                </div>
             </div>
-            <div class="result"></div>
-          </div>
+    
+            <div class="form-group">
+                <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Nachricht senden</button>
+            </div>
+    
         </form>
-      </div>
+        </div>
+    </div>
+
     </div>
     <!--/.container--> 
   </div>
 </section>
 <footer>
 <div class="container">
-        <div class="row">
             <div class="center">
-            	<div class="col">
                    <h4>Contact us</h4>
                    <ul>
-                        <li>Grimmgasse 28 - 8020 Graz</li>
                         <li>Phone: +43 6644461577 </li>
                         <li>Email: <a href="mailto:Winter.Martin@live.at" title="Schreib uns!">Winter.Martin@live.at</a></li>
                     </ul>
                  </div>
-            </div>
-
     </div>
-    
+</div>
 </footer>
 <!--/.page-section-->
-<section class="copyright">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 text-center"> Copyright 2014 | All Rights Reserved -- Template by <a href="http://webThemez.com">WebThemez.com</a> </div>
-    </div>
-    <!-- / .row --> 
-  </div>
-</section>
+
 <a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a> 
 
 <!--[if lte IE 8]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><![endif]--> 
