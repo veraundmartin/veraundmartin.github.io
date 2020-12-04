@@ -619,6 +619,14 @@ img, video, iframe, embed, object {
 .row .area2 {
 	width: 75%;
 }
+
+.player {
+	width: 50%;
+}​
+
+audio {
+	width: 80%
+  }
 /* Services
     -------------------------------------------------*/
 .grid .text-content {
@@ -1302,3 +1310,4 @@ nav#filter li {
 .isotopeWrapper article {
 	margin: 0px;
 }
+
