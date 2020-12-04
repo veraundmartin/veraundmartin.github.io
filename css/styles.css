@@ -614,10 +614,10 @@ img, video, iframe, embed, object {
 	float: right;
 }
 .row .area1 {
-	width: 65%;
+	width: 25%;
 }
 .row .area2 {
-	width: 35%;
+	width: 75%;
 }
 /* Services
     -------------------------------------------------*/
